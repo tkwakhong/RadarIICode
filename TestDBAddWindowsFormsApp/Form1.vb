@@ -193,6 +193,7 @@ Public Class Form1
                                site1Lng As Decimal,
                                site2Lat As Decimal,
                                site2Lng As Decimal)
+        ' Formula from "Distance" headline in https://www.movable-type.co.uk/scripts/latlong.html
         ' use THADMK as reference site
         Dim refLat As Double = 13.9257194444444
         Dim refLon As Double = 100.605683333333
